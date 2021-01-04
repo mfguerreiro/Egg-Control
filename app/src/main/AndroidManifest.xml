@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appovo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".banco"></activity>
+        <activity android:name=".cad_rotas" />
+        <activity android:name=".cad_tipos" />
+        <activity
+            android:name=".rotas"
+            android:label="@string/title_activity_cad_rotas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tipos"
+            android:label="@string/title_activity_cad_tipos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".configuracoes" />
+        <activity android:name=".cons_vendas" />
+        <activity android:name=".dados_vendas" />
+        <activity android:name=".dados_estoque" />
+        <activity android:name=".cons_estoque" />
+        <activity android:name=".cad_estoque" />
+        <activity
+            android:name=".estoque"
+            android:label="@string/title_activity_estoque"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".con_Estoque"
+            android:label="@string/title_activity_con__estoque"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cad_Estoque"
+            android:label="@string/title_activity_cad__estoque"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cad_Vendas"
+            android:label="@string/title_activity_cad__vendas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".relatorios"
+            android:label="@string/title_activity_relatorios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

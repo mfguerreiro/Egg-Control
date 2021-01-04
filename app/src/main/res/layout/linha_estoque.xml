@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+
+    android:layout_height="50dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="44dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="25dp"
+        android:clipChildren="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtLote"
+            android:layout_width="39dp"
+            android:layout_height="20dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtQtd"
+            android:layout_width="95dp"
+            android:layout_height="20dp"
+            android:text="0"
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txtTipo"
+        android:layout_width="79dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="26dp"
+        android:baselineAligned="false"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/tableRow2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtQtdDisp"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="26dp"
+        android:baselineAligned="false"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/txtData"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="122dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="25dp"
+        android:baselineAligned="false"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/txtTipo"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayoutVendas"
+        android:layout_width="408dp"
+        android:layout_height="632dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/btn_vendas"
+            android:layout_width="197dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="144dp"
+            android:background="#FFC800"
+            android:fontFamily="casual"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:shadowColor="#696969"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="0.01"
+            android:text="CADASTRAR VENDAS"
+            android:textAlignment="center"
+
+            android:textColor="@color/design_default_color_background"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_estoque"
+            android:layout_width="197dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="4dp"
+            android:background="#FFC800"
+            android:fontFamily="casual"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:shadowColor="#696969"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="0.01"
+            android:text="CADASTRAR ESTOQUE"
+
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_relatorio"
+            android:layout_width="197dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="76dp"
+            android:background="#FFC800"
+            android:fontFamily="casual"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:shadowColor="#696969"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="0.01"
+            android:text="RELATÓRIOS"
+
+            android:textColor="#FFFFFF"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_vendas" />
+
+        <Button
+            android:id="@+id/btn_config"
+            android:layout_width="197dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="4dp"
+            android:background="#FFC800"
+            android:fontFamily="casual"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:shadowColor="#696969"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="0.01"
+            android:text="CONFIGURAÇÕES"
+
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_estoque" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="176dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:visibility="invisible"
+            app:backgroundTint="#FFC800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_vendas"
+            app:srcCompat="@android:drawable/ic_menu_manage"
+            tools:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="413dp"
+            android:layout_height="57dp"
+            android:background="#FFC800"
+            android:drawableLeft="@drawable/ic_ico_ovo"
+            android:text="Controle de Ovos"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:shadowDx="7"
+            android:shadowDy="7"
+            android:shadowColor="#696969"
+            android:shadowRadius="0.01"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

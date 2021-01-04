@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".configuracoes">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="3dp"
+        android:text="CONFIGURAÇÕES"
+        android:textAlignment="center"
+        android:textColor="#FAED9B0B"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowRadius="0.01"
+        android:shadowColor="#696969"
+        android:shadowDx="7"
+        android:shadowDy="7"/>
+
+    <Button
+        android:id="@+id/btn_banco"
+        android:layout_width="400dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="324dp"
+        android:background="#FFC800"
+        android:fontFamily="casual"
+        android:shadowColor="#696969"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="0.01"
+        android:text="BANCO DE DADOS"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_tipos"
+        android:layout_width="197dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="168dp"
+        android:background="#FFC800"
+        android:fontFamily="casual"
+        android:shadowColor="#696969"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="0.01"
+        android:text="TIPOS"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_rotas"
+        android:layout_width="197dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="4dp"
+        android:background="#FFC800"
+        android:fontFamily="casual"
+        android:shadowColor="#696969"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="0.01"
+        android:text="ROTAS"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Controle de ovos</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_cad__vendas">cad_Vendas</string>
+    <string name="title_activity_estoque">estoque</string>
+    <string name="title_activity_relatorios">relatorios</string>
+
+    <string-array name="tipo_ovos">
+        <item>Selecione</item>
+        <item>Branco</item>
+        <item>Vermelho</item>
+    </string-array>
+
+    <string-array name="rotas">
+        <item>rota1</item>
+        <item>rota2</item>
+    </string-array>
+    <string name="title_activity_cad__estoque">cad_Estoque</string>
+    <string name="title_activity_con__estoque">con_Estoque</string>
+
+    //string para texto das telas
+    <string name="quantidadeVendas">Quanto você vendeu?</string>
+    <string name="toast_db">Conexão criada com sucesso</string>
+    <string name="erro">Erro</string>
+    <string name="lbl_ok">Ok</string>
+    <string name="title_activity_cad_tipos">cadTipos</string>
+    <string name="title_activity_cad_rotas">cadRotas</string>
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutVendas"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/txtLote"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="17dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCod" />
+
+    <TextView
+        android:id="@+id/txtLote3"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:text="Lote"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCod" />
+
+    <TextView
+        android:id="@+id/txtVenda"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="17dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/txtQtdDisp"
+        app:layout_constraintTop_toBottomOf="@+id/txtRota" />
+
+    <TextView
+        android:id="@+id/txtVenda2"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="1dp"
+        android:text="Venda"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtQtdDisp"
+        app:layout_constraintTop_toBottomOf="@+id/txtRota" />
+
+    <TextView
+        android:id="@+id/txtQtdDisp"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="17dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/txtTipo"
+        app:layout_constraintTop_toBottomOf="@+id/txtData" />
+
+    <TextView
+        android:id="@+id/txtCusto2"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="1dp"
+        android:text="Custo"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtTipo"
+        app:layout_constraintTop_toBottomOf="@+id/txtData" />
+
+    <TextView
+        android:id="@+id/txtTipo"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="17dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/txtLote"
+        app:layout_constraintTop_toBottomOf="@+id/txtQtd" />
+
+    <TextView
+        android:id="@+id/txtTipo2"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="1dp"
+        android:text="Tipo"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtLote"
+        app:layout_constraintTop_toBottomOf="@+id/txtQtd" />
+
+    <TextView
+        android:id="@+id/txtRota"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="27dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/txtData"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtRota2"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Rota"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtData"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="27dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/txtQtd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtData2"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Data"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtQtd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtQtd"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="27dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/txtCod"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtQtd2"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Quantidade"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtCod"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCod"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="27dp"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCod10"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:text="Código"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="11dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLote" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".relatorios">
+
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="3dp"
+        android:text="RELATÓRIOS"
+        android:textAlignment="center"
+        android:textColor="#FAED9B0B"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowRadius="0.01"
+        android:shadowColor="#696969"
+        android:shadowDx="7"
+        android:shadowDy="7"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:visibility="invisible"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_relatorios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/btn_estoque"
+        android:layout_width="337dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="104dp"
+        android:background="#FFC800"
+        android:fontFamily="casual"
+        android:text="CONSULTAR ESTOQUE"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowRadius="0.01"
+        android:shadowColor="#696969"
+        android:shadowDx="10"
+        android:shadowDy="10"/>
+
+    <Button
+        android:id="@+id/btn_vendas"
+        android:layout_width="337dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="340dp"
+        android:background="#FFC800"
+        android:fontFamily="casual"
+        android:text="CONSULTAR VENDAS"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowRadius="0.01"
+        android:shadowColor="#696969"
+        android:shadowDx="10"
+        android:shadowDy="10"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
